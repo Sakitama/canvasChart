@@ -1,0 +1,20 @@
+{
+  "name": "canvasdemo",
+  "version": "1.0.0",
+  "description": "Drag Canvas Circle",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js --progress --display-modules --colors --display-reasons"
+  },
+  "author": "Sakitama",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.0",
+    "babel-preset-env": "^1.2.2",
+    "css-loader": "^0.27.3",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.16.0",
+    "webpack": "^2.3.1"
+  }
+}
