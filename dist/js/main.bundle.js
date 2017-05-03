@@ -71,35 +71,6 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(1);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return cvs; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ctx; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return cvsOffset; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return cvsWidth; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return cvsHeight; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return circleArray; });
-
-
-const cvs = document.getElementById("myCanvas"),
-    ctx = cvs.getContext("2d"),
-    cvsWidth = cvs.getAttribute("Width"),
-    cvsHeight = cvs.getAttribute("Height"),
-    cvsOffset = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util__["f" /* getPosition */])(cvs),
-    circleArray = [];
-
-
-
-
-
-
-
-
-
-/***/ }),
-/* 1 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return drawAllCircleAndArrow; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return addEvent; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return removeEvent; });
@@ -143,9 +114,7 @@ let removeEvent = (elem, type, handler) => {
     removeEvent(elem, type, handler);
 };
 
-let isObject = (o) => {
-    return Object.prototype.toString.call(o) === "[object Object]";
-};
+let isObject = o => Object.prototype.toString.call(o) === "[object Object]";
 
 let getPosition = (element) => {
     let actualLeft = element.offsetLeft,
@@ -227,11 +196,26 @@ let drawAllCircleAndArrow = (arr, ctx, cvsWidth, cvsHeight) => {
 
 
 
+/***/ }),
+/* 1 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(0);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return cvs; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ctx; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return cvsOffset; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return cvsWidth; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return cvsHeight; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return circleArray; });
 
 
-
-
-
+const cvs = document.getElementById("myCanvas"),
+    ctx = cvs.getContext("2d"),
+    cvsWidth = cvs.getAttribute("Width"),
+    cvsHeight = cvs.getAttribute("Height"),
+    cvsOffset = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util__["f" /* getPosition */])(cvs),
+    circleArray = [];
 
 
 
@@ -241,9 +225,8 @@ let drawAllCircleAndArrow = (arr, ctx, cvsWidth, cvsHeight) => {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__Circle__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__const__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__const__ = __webpack_require__(1);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__const__["f"]; });
-
 
 
 
@@ -350,14 +333,10 @@ if(false) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__const__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__const__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__initCircle__ = __webpack_require__(2);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return mouseDownHandler; });
-
-
-
-
 
 
 
@@ -2952,7 +2931,7 @@ module.exports = Array.isArray || function (arr) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(0);
 
 
 class Circle {
@@ -3045,8 +3024,8 @@ class Circle {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_style_css__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__css_style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__css_style_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_util__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_const__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__js_util__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__js_const__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__js_initCircle__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__js_addEvent__ = __webpack_require__(4);
 

@@ -32,9 +32,7 @@ let removeEvent = (elem, type, handler) => {
     removeEvent(elem, type, handler);
 };
 
-let isObject = (o) => {
-    return Object.prototype.toString.call(o) === "[object Object]";
-};
+let isObject = o => Object.prototype.toString.call(o) === "[object Object]";
 
 let getPosition = (element) => {
     let actualLeft = element.offsetLeft,
@@ -115,25 +113,13 @@ let drawAllCircleAndArrow = (arr, ctx, cvsWidth, cvsHeight) => {
 };
 
 export {
-    drawAllCircleAndArrow
-};
-
-export {
-    addEvent
-};
-
-export {
+    drawAllCircleAndArrow,
+    addEvent,
     removeEvent,
     getEvent,
-    getMouseOffset
-};
-
-export {
+    getMouseOffset,
     isObject,
     getCrossPoint,
-    drawArrow
-};
-
-export {
+    drawArrow,
     getPosition
 };

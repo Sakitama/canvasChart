@@ -1,23 +1,15 @@
 import {
-    addEvent
-} from "./util";
-import {
+    addEvent,
     removeEvent,
     getEvent,
-    getMouseOffset
-} from "./util";
-import {
+    getMouseOffset,
     drawAllCircleAndArrow
 } from "./util";
 
 import {
     cvs,
-    ctx
-} from "./const";
-import {
-    cvsOffset
-} from "./const";
-import {
+    ctx,
+    cvsOffset,
     cvsWidth,
     cvsHeight
 } from "./const";

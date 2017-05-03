@@ -11,18 +11,9 @@ const cvs = document.getElementById("myCanvas"),
 
 export {
     cvs,
-    ctx
-};
-
-export {
-    cvsOffset
-};
-
-export {
+    ctx,
+    cvsOffset,
     cvsWidth,
-    cvsHeight
-};
-
-export {
+    cvsHeight,
     circleArray
 };

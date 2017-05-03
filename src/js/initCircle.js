@@ -2,9 +2,7 @@ import Circle from "./Circle";
 
 import {
     cvsWidth,
-    cvsHeight
-} from "./const";
-import {
+    cvsHeight,
     circleArray
 } from "./const";
 
