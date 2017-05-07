@@ -1,17 +1,13 @@
 import style from "./css/style.css";
 
 import {
-    addEvent
-} from "./js/util";
-import {
+    addEvent,
     drawAllCircleAndArrow
 } from "./js/util";
 
 import {
     cvs,
-    ctx
-} from "./js/const";
-import {
+    ctx,
     cvsWidth,
     cvsHeight
 } from "./js/const";

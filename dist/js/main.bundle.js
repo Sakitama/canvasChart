@@ -3038,8 +3038,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-
-
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__js_util__["a" /* drawAllCircleAndArrow */])(__WEBPACK_IMPORTED_MODULE_3__js_initCircle__["a" /* circleArray */], __WEBPACK_IMPORTED_MODULE_2__js_const__["a" /* ctx */], __WEBPACK_IMPORTED_MODULE_2__js_const__["b" /* cvsWidth */], __WEBPACK_IMPORTED_MODULE_2__js_const__["c" /* cvsHeight */]);
 
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__js_util__["b" /* addEvent */])(__WEBPACK_IMPORTED_MODULE_2__js_const__["d" /* cvs */], "mousedown", __WEBPACK_IMPORTED_MODULE_4__js_addEvent__["a" /* mouseDownHandler */]);
